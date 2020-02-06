@@ -1,11 +1,6 @@
-# compute mean values for each level of a grouping variable (e.g., block)
-meansByBlock = function(data) {
-  data <- as.data.frame(data)
-  meansOut <- aggregate(data, list(data$block), mean)
-  return(meansOut)
-}
-
 # compute accuracy by block (any number of categories)
+#
+
 catAccuracy = function(data) {
   # data needs to be a list of data frames
   # each data set needs columns labeled "block", "cat", & "resp"
@@ -15,12 +10,3 @@ catAccuracy = function(data) {
   return(accuracy)
 }
 
-# summarize matrix values
-matrixSummary = function(data) {
-  columnMean <- colMeans(data)
-  columnSD <- apply(data, 2, sd)
-  columnSE <-columnSD / sqrt(nrow(data))
-  returnList <- list(columnMean, columnSD, columnSE)
-  names(returnList) <- c("colMeans", "colSD", "colSE")
-  return(returnList)
-}

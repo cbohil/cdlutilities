@@ -1,14 +1,14 @@
-\name{CDL-utilities}
-\alias{CDL-utilities}
+\name{meansbyblock}
+\alias{meansbyblock}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{CDL functions for common data analysis tasks
+\title{ compute means for each block of trials
 %%  ~~function to do ... ~~
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-CDL-utilities(x)
+meansbyblock(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
