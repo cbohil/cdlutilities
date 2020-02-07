@@ -1,19 +1,19 @@
 \name{meansbyblock}
 \alias{meansbyblock}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{ compute means for each block of trials
+\title{Compute means for each block of trials
 %%  ~~function to do ... ~~
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Compute mean values for each level of a grouping variable (e.g., block)
 }
 \usage{
-meansbyblock(x)
+meansByBlock(data)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
+  \item{data}{
+Data needs to be a list of data frames.  Each data set needs columns labeled "block", "cat", & "resp"
 }
 }
 \details{

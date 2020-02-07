@@ -1,19 +1,19 @@
 \name{matrixsummary}
 \alias{matrixsummary}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{compute matrix summary stats
+\title{Compute matrix summary stats
 %%  ~~function to do ... ~~
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Summarize matrix values
 }
 \usage{
-matrixsummary(x)
+matrixSummary(data)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
+  \item{data}{
+Data needs to be a list of data frames.  Each data set needs columns labeled "block", "cat", & "resp"
 }
 }
 \details{
