@@ -45,14 +45,7 @@ Data needs to be a list of data frames.  Each data set needs columns labeled "bl
 
 # summarize matrix values
 
-matrixSummary = function(data=cat2_data) {
-  columnMean <- colMeans(data)
-  columnSD <- apply(data, 2, sd)
-  columnSE <-columnSD / sqrt(nrow(data))
-  returnList <- list(columnMean, columnSD, columnSE)
-  names(returnList) <- c("colMeans", "colSD", "colSE")
-  return(returnList)
-  }
+matrixSummary = function(cat2_data)
 
 }
 

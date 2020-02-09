@@ -44,11 +44,7 @@ Data needs to be a list of data frames.  Each data set needs columns labeled "bl
 \examples{
 # compute mean values for each level of a grouping variable (e.g., block)
 
-meansByBlock = function(data=cat2_data) {
-  data <- as.data.frame(data)
-  meansOut <- aggregate(data, list(data$block), mean)
-  return(meansOut)
-}
+meansByBlock = function(cat2_data)
 
 
 }
