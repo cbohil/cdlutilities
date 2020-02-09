@@ -45,7 +45,7 @@ Data needs to be a list of data frames.  Each data set needs columns labeled "bl
 
 # summarize matrix values
 
-matrixSummary = function(cat2_data)
+matrixSummary(cat2_data)
 
 }
 

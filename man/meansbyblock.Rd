@@ -44,7 +44,7 @@ Data needs to be a list of data frames.  Each data set needs columns labeled "bl
 \examples{
 # compute mean values for each level of a grouping variable (e.g., block)
 
-meansByBlock = function(cat2_data)
+meansByBlock(cat2_data)
 
 
 }

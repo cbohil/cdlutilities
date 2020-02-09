@@ -47,7 +47,7 @@ Data needs to be a list of data frames.  Each data set needs columns labeled "bl
 # each data set needs columns labeled "block", "cat", & "resp"
 warning("catAccuracy needs to be generalized to send in labels for block, cat & resp")
 
-catAccuracy = function(cat2_data)
+catAccuracy(cat2_data)
 
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
