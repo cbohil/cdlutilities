@@ -42,14 +42,15 @@ Data needs to be a list of data frames.  Each data set needs columns labeled "bl
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
+# compute mean values for each level of a grouping variable (e.g., block)
 
-## The function is currently defined as
-function (x)
-{
-  }
+meansByBlock = function(data=cat2_data) {
+  data <- as.data.frame(data)
+  meansOut <- aggregate(data, list(data$block), mean)
+  return(meansOut)
+}
+
+
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
