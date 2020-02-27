@@ -45,7 +45,6 @@ Data needs to be a list of data frames.  Each data set needs columns labeled "bl
 
 # data needs to be a list of data frames
 # each data set needs columns labeled "block", "cat", & "resp"
-warning("catAccuracy needs to be generalized to send in labels for block, cat & resp")
 
 catAccuracy(cat2_data)
 
