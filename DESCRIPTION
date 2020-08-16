@@ -1,11 +1,11 @@
 Package: cdlutilities
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Misc functions for UCF Categorization & Decision Lab 
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Corey Bohil
+Maintainer: Corey Bohil <corey.bohil@ucf.edu>
+Description: Functions that compartmentalize several steps involved in common analysis tasks in our lab.
+    Also some new functions that are shared by everyone in the lab (e.g., GRT plotting).
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
