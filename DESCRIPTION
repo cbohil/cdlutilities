@@ -6,6 +6,6 @@ Author: Corey Bohil
 Maintainer: Corey Bohil <corey.bohil@ucf.edu>
 Description: Functions that compartmentalize several steps involved in common analysis tasks in our lab.
     Also some new functions that are shared by everyone in the lab (e.g., GRT plotting).
-License: 
+License: MIT License
 Encoding: UTF-8
 LazyData: true

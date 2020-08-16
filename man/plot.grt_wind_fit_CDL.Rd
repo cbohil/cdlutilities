@@ -40,7 +40,7 @@ bnd_type can = "means", "medians", "allbounds", "xbounds", "ybounds"
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+C. Bohil
 }
 \note{
 %%  ~~further notes~~
